@@ -1,0 +1,13 @@
+<ActionBar class="action-bar">
+  <Label class="action-bar-title" text="Beer Tab"></Label>
+</ActionBar>
+
+<GridLayout class="page page-content">
+  <FlexboxLayout flexDirection="column">
+    <Button text="Stock the Fridge" flexGrow="2" backgroundColor="#428bca" class="btn btn-primary home-buttons" [nsRouterLink]="['../stock']"></Button>
+     <!--Label class="h3 text-center text-muted" text="Fill that puppy up with some spankin' new cold boys!"></Label-->
+     <StackLayout class="hr-light m-10"></StackLayout>
+     <Button text="Drink a Beer" flexGrow="2" backgroundColor="#428bca" class="btn btn-primary home-buttons" (tap)="drinkBeer()"></Button>
+     <!--Label class="h3 text-center text-muted" text="Time to sip a beer like your goddamn life depended on it!"></Label-->
+   </FlexboxLayout>
+</GridLayout>

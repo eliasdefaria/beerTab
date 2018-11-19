@@ -9,8 +9,8 @@
     }
   },
   "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "repository": "<fill-your-repository-here>",
+  "license": "SEE LICENSE IN './LICENSE'",
+  "repository": "git@github.com:eliasdefaria/beerTab.git",
   "dependencies": {
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",

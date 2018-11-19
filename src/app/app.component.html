@@ -1,2 +1,7 @@
-<!-- https://docs.nativescript.org/angular/core-concepts/angular-navigation.html#page-router-outlet -->
-<page-router-outlet></page-router-outlet>
+<TabView height="300px" androidTabsPosition="bottom">
+  <page-router-outlet *tabItem="{title: 'Home'}" name="homeTab"></page-router-outlet>
+  <page-router-outlet *tabItem="{title: 'Open Tabs'}" name="openTab"></page-router-outlet>
+  <StackLayout *tabItem="{title: 'Inventory'}">
+      <Label text="Label in Tab 3"></Label>
+  </StackLayout>
+</TabView>

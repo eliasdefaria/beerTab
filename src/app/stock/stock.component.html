@@ -1,0 +1,12 @@
+<ActionBar class="action-bar">
+  <Label class="action-bar-title" text="Stock Tab"></Label>
+</ActionBar>
+
+<StackLayout>
+  <Label class="h3 m-15" text="Carter" textWrap="true"></Label>
+  <Switch class="" checked="{{carterSwitch}}" (checkedChange)="chooseUser('carter')" #switch1></Switch>
+  <Label class="h3 m-15" text="Elias" textWrap="true"></Label>
+  <Switch class="" checked="{{eliasSwitch}}" (checkedChange)="chooseUser('elias')" #switch2></Switch>
+  <Label class="h3 m-15" text="Matt" textWrap="true"></Label>
+  <Switch class="" checked="{{mattSwitch}}" (checkedChange)="chooseUser('matt')" #switch3></Switch>
+</StackLayout>
